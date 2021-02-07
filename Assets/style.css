@@ -1,0 +1,106 @@
+/* THis is the stylesheet to my Portfolio Website it is
+organized top down to match the HTML flow.  Mush of the CSS styling is self explanatory due to the semantic HTML. */
+
+/*last updated by Michael O'Connor, January 19, 2021*/
+
+
+/* I have incorporated the background image in the body to ensure coverage of the entire viewport and tried to blend it with the footer and the NavBar to give the site a seemless view. ONly when the user interact with certain pages do they realize the scroll feature.*/
+body {
+    background-image: url(Images/IMG_0065.jpeg);
+    background-size: auto;
+    background-repeat: repeat;
+    background-position: fixed;
+} 
+
+/* I set up an area called main that can have a color that highlights the text to make it more readable. */
+
+.main {
+    background-color:rgb(236, 236, 234);
+}
+.container{
+    margin: 10px;
+    
+}
+    
+h1 {margin: 10px;
+    margin-top: 60px;
+}
+
+h2 {font-size:30px;
+    color:black;
+    margin: 10px;
+}
+
+p {padding: 10px;
+margin: 10px;
+font-size: 20px;
+}
+
+.text {
+padding-top: 10px;
+margin-top: 10px;
+}
+
+.mb-3 {
+    border: 5px solid Navy;
+    padding: 10px;
+    margin: 10px;
+    height: 50;
+    width: 50;
+}
+
+.navbar {padding-top: 0px;
+        padding-bottom: 0px;
+}
+
+.navbar-collapse {
+    align-items: center;
+    width: 30%;
+}
+.container-fluid {
+    background-color:rgb(192, 204, 206);
+    color: white !important;
+    margin-bottom: 0px;
+}
+.navbar-brand {
+    color: white;
+    font-size:30px;
+}
+
+.navbar-nav {
+    color: white;
+}
+.nav-link {
+    color: white;
+    font-size:30px;
+}
+
+#profilePic { 
+    border: 5px solid Navy;
+    float: left;
+    padding: 0px;
+    margin: 27px;
+    margin-bottom: 10px;
+    height: 200px;
+}
+.portfoliopic { 
+    border: 5px solid Navy;
+    float: left;
+    padding: 10px;
+    margin: 20px;
+    height: 350px;
+    contain: size;
+}
+
+/* I have added a strip of cloud image in the footer*/
+.footer  {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-image: url(Images/FooterImage.jpg);
+    color:rgb(83, 83, 83);
+    text-align: center;
+    font-size: 10px;
+    margin-top: 5px;
+ }
