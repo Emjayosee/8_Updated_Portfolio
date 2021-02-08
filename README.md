@@ -31,6 +31,8 @@ The following items should be considered for future enhancements, time and budge
 
     1. THere is not a lot of JAVASCRIPT used and I should think up ways to add some.
 
+    2. Added an email link to allow users to send me an email from the Contact page.
+
 
 # 05 Further improvements to make:
 
@@ -42,6 +44,6 @@ The following items should be considered for future enhancements, time and budge
 # 06 Current Renderings:
 
 See Current Rendering at the time of writing in the Assignment01 Repo. 
-![alt text](FinalRenderings/About.png) 
-![alt text](FinalRenderings/Portfolio.png) 
-![alt text](FinalRenderings/Contact.png) 
+![alt text](Assets/Images/About.png) 
+![alt text](Assets/Images/Portfolio.png) 
+![alt text](Assets/Images/Contact.png) 
